@@ -72,7 +72,7 @@ i18n
             "sourceCode": "source code",
             "certs": "Courses & Certificates",
 
-            "logo": "Pedram Jalali",
+            "logo": "PedramJalali",
             "welcome": "Welcome to my personal website. I’m Pedram Jalali",
             "description": "Back-end developer. 24 years old, based in Kerman, Iran. Interested in developing up-to-date and secure web applications. Experienced in working with various robust modern frameworks and technologies. Always looking forward to learning new technologies and improving my skills. Ready to collaborate on challenging and innovative projects.",
             
@@ -121,7 +121,7 @@ i18n
             "sourceCode": "Quellcode",
             "certs": "Kurse & Zertifikate",
 
-            "logo": "Pedram Jalali",
+            "logo": "PedramJalali",
             "welcome": "Willkommen auf meiner persönlichen Website. Ich heiße Pedram Jalali.",
             "description": "Serverseitiger Entwickler. 24 Jahre alt, wohnhaft in Kerman, Iran. Interessiert an der Entwicklung aktueller und sicherer Webanwendungen. Erfahren im Umgang mit verschiedenen Frameworks und Programmiersprachen. Immer bestrebt, neue Technologien zu erlernen und meine Fähigkeiten zu verbessern. Bereit zur Zusammenarbeit an herausfordernden und innovativen Projekten.",
             

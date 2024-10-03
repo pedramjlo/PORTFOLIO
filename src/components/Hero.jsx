@@ -1,14 +1,13 @@
 import React, { useEffect } from 'react';
 import useMediaQuery from './MediaQuery';
-
-import Navbar from './Navbar';
-
 import { useTranslation } from 'react-i18next';
-import Hero from './Hero';
+
+import Man from '../images/man.svg'
+
+import '../styles/hero.css';
 
 
-const Home = () => {
-
+const Hero = () => {
 
     const { t, i18n } = useTranslation();
 
@@ -28,24 +27,18 @@ const Home = () => {
     }, [i18n.language]);
 
     return(
-        <div>
+        <main className='container'>
             {isMobile ? (
-                <div className='container main'>
-                    <Navbar />
-                    <Hero />
+                <div className='hero-image'>
+                    <img src={Man} alt="Man" />
                 </div>
-
             ) : (
-
                 <div>
-                    <header>
-                        <Navbar />
-                    </header>
+                    <img src={Man} alt="Man" />
                 </div>
-                
             )}
-        </div>
+        </main>
     );
 };
 
-export default Home;
+export default Hero;

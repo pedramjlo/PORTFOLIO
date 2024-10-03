@@ -1,0 +1,28 @@
+.hero-image {
+
+}
+
+@media only screen and (min-width: 375px) {
+    /* Styles for iPhone SE 2020 */
+    .hero-image img{
+        width: 70vw;
+        height: 50vh;
+        background: none;
+    }
+}
+  
+@media only screen and (min-width: 414px) {
+    /* Styles for iPhone 15 */
+    .hero-image img {
+        min-width: 20vw;
+    }
+
+}
+  
+@media only screen and (min-width: 430px) {
+    /* Styles for iPhone 15 Pro Max */
+    .hero-image img {
+        
+    }
+}
+  

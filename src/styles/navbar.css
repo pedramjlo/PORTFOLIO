@@ -1,0 +1,85 @@
+nav {
+    min-width: 100%;
+    position: sticky;
+}
+
+#logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+/* Common attributes on mobile designs */
+
+
+
+@media only screen and (min-width: 375px) {
+    /* Styles for iPhone SE 2020 */
+    .nav {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        text-align: center;
+        padding-top: 4vh;
+    }
+
+
+    #logo {
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+        font-size: 2em;
+        font-weight: 700;
+    }
+
+
+
+    #language-switcher {
+    }
+    
+}
+  
+@media only screen and (min-width: 414px) {
+    /* Styles for iPhone 15 */
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #logo {
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+        font-size: 2em;
+        font-weight: 700;
+    }
+
+    #language-switcher {
+        position: absolute;
+        top: 15vh;
+    }
+
+}
+  
+@media only screen and (min-width: 430px) {
+    /* Styles for iPhone 15 Pro Max */
+    nav {
+
+    }
+
+    #logo {
+        font-size: 1.3em;
+        font-weight: 700;
+    }
+
+    #language-switcher {
+        position: absolute;
+        top: 15vh;
+    }
+
+}
+  
