@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import useMediaQuery from './MediaQuery';
 
 import Navbar from './Navbar';
+import PrimarySkills from './PrimarySkills';
 
 import { useTranslation } from 'react-i18next';
 import Hero from './Hero';
@@ -35,6 +36,9 @@ const Home = () => {
                     <Navbar />
                     <Hero />
                     <div class="separator"></div>
+                    <PrimarySkills />
+                    <div class="separator"></div>
+                    
                     
                 </div>
 
