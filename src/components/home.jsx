@@ -33,6 +33,8 @@ const Home = () => {
                 <div className='container main'>
                     <Navbar />
                     <Hero />
+                    <hr className="hr-text" />
+                    
                 </div>
 
             ) : (
