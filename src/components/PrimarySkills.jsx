@@ -6,7 +6,6 @@ import i18n from 'i18next';
 
 
 import '../styles/primaryskills.css';
-import LanguageSwitcher from './LanguageSwitcher';
 
 
 const PrimarySkills = () => {

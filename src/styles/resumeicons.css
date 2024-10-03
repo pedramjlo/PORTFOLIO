@@ -23,12 +23,34 @@
   
 @media only screen and (min-width: 414px) {
     /* Styles for iPhone 15 */
-    
+    .resume-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3vw;
+    }
+
+    .resume-icons a img {
+        width: 10vw;
+        height: 5vh;
+        border-radius: 50%;
+    }   
 
 }
   
 @media only screen and (min-width: 430px) {
     /* Styles for iPhone 15 Pro Max */
-    
+    .resume-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3vw;
+    }
+
+    .resume-icons a img {
+        width: 10vw;
+        height: 5vh;
+        border-radius: 50%;
+    }  
 }
   

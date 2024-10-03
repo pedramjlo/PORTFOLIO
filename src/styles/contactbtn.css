@@ -19,6 +19,9 @@
 @media only screen and (min-width: 414px) {
     /* Styles for iPhone 15 */
     button {
+        width: 40vw;
+        height: 4vh;
+        border-radius: 15px;
     }
 
 }
@@ -26,6 +29,9 @@
 @media only screen and (min-width: 430px) {
     /* Styles for iPhone 15 Pro Max */
     button {
+        width: 40vw;
+        height: 4vh;
+        border-radius: 15px;
     }
 
 }
