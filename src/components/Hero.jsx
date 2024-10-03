@@ -4,6 +4,8 @@ import { useTranslation } from 'react-i18next';
 
 import Man from '../images/man.svg'
 
+import ResumeIcons from './ResumeIcons';
+
 import '../styles/hero.css';
 
 
@@ -29,8 +31,13 @@ const Hero = () => {
     return(
         <main className='container'>
             {isMobile ? (
-                <div className='hero-image'>
+                <div className='hero'>
                     <img src={Man} alt="Man" />
+                    <div className='hero-texts'>
+                        <span id='welcome-text'>{t('welcome')}</span>
+                        <p id='hero-description'>{t('description')}</p>
+                        <ResumeIcons />
+                    </div>
                 </div>
             ) : (
                 <div>

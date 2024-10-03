@@ -4,24 +4,39 @@
 
 @media only screen and (min-width: 375px) {
     /* Styles for iPhone SE 2020 */
-    .hero-image img{
-        width: 70vw;
-        height: 50vh;
-        background: none;
+    .hero img{
+        width: 100vw;
+        height: 35vh;
+    }
+    
+    .hero-texts {
+        text-align: center;
+        margin: auto 20px;
+    }
+
+    #welcome-text {
+        font-size: 1.5em;
+        font-weight: 800;
+        line-height: 40px;
+    }
+
+    #hero-description {
+        padding-top: 3vh;
+        color: #AEAEAE;
+        line-height: 35px;
     }
 }
   
 @media only screen and (min-width: 414px) {
     /* Styles for iPhone 15 */
-    .hero-image img {
-        min-width: 20vw;
+    .hero img {
     }
 
 }
   
 @media only screen and (min-width: 430px) {
     /* Styles for iPhone 15 Pro Max */
-    .hero-image img {
+    .hero img {
         
     }
 }
