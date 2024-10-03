@@ -7,6 +7,7 @@ import { useTranslation } from 'react-i18next';
 import Hero from './Hero';
 
 
+
 const Home = () => {
 
 
@@ -33,7 +34,7 @@ const Home = () => {
                 <div className='container main'>
                     <Navbar />
                     <Hero />
-                    <hr className="hr-text" />
+                    <div class="separator"></div>
                     
                 </div>
 

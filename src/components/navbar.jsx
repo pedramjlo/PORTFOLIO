@@ -19,13 +19,8 @@ const Navbar = () => {
     const currentLanguage = (lng) => {
         if (lng === "fa") {
             document.body.style.direction = "rtl";
-            document.body.classList.add('fa')
-            document.body.classList.remove('en');
         } else {
             document.body.style.direction = "ltr";
-            document.body.classList.add('en')
-            document.body.classList.remove('fa');
-
         }
     };
 
