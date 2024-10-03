@@ -13,6 +13,7 @@ i18n
             "projects": "پروژه ها",
             "gotoButton": "برو به پروژه",
             "sourceCode": "سورس کد",
+            "contact": "ارتباط با من",
 
 
             "logo": "پدرام جلالی",
@@ -66,6 +67,8 @@ i18n
       },
       en: {
         translation: {
+            "contact": "Contact me",
+
             "languages": "Langugaes",
             "projects": "Projects",
             "gotoButton": "Go to project",
@@ -115,6 +118,9 @@ i18n
       },
       de: {
         translation: {
+
+            "contact": "Kontaktieren Sie mich",
+
             "languages": "Sprache",
             "projects": "Projekte",
             "gotoButton": "Zum Projekt",

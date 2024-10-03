@@ -6,6 +6,7 @@ import Man from '../images/man.svg'
 
 import ResumeIcons from './ResumeIcons';
 
+
 import '../styles/hero.css';
 
 
@@ -28,6 +29,14 @@ const Hero = () => {
         currentLanguage(i18n.language);
     }, [i18n.language]);
 
+    const ContactButton = {
+        width: "50vw",
+        height: "8vh",
+        backgroundColor: "#58B2FE",
+        borderRadius: "10px",
+        fontWeight: "600",
+    };
+
     return(
         <main className='container'>
             {isMobile ? (
@@ -37,6 +46,7 @@ const Hero = () => {
                         <span id='welcome-text'>{t('welcome')}</span>
                         <p id='hero-description'>{t('description')}</p>
                         <ResumeIcons />
+                        <button type="button" class="btn btn-secondary" style={ContactButton}>{t('contact')}</button>
                     </div>
                 </div>
             ) : (
