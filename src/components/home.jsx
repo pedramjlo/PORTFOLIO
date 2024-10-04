@@ -3,6 +3,7 @@ import useMediaQuery from './MediaQuery';
 
 import Navbar from './Navbar';
 import PrimarySkills from './PrimarySkills';
+import Languages from './languages';
 
 import { useTranslation } from 'react-i18next';
 import Hero from './Hero';
@@ -36,8 +37,11 @@ const Home = () => {
                 <div className='container main'>
                     <Navbar />
                     <Hero />
+                    <br />
                     <hr />
                     <PrimarySkills />
+                    <hr />
+                    <Languages />
                     <hr />
                     <Projects />
                 </div>

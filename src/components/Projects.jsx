@@ -33,6 +33,7 @@ const Projects = () => {
                         <span className='project-exp'>{t('daeiAliExplain')}</span>
                     </div>
                     <GoToButton />
+                    <br />
                     <hr />
                     <div className='section-content'>
                         <img src={Django} alt="Django" />
@@ -41,6 +42,7 @@ const Projects = () => {
                         <span className='project-exp'>{t('blogAppExplain')}</span>
                     </div>
                     <GoToButton />
+                    <br />
                     <hr />
                     <div className='section-content'>
                         <img src={Django} alt="Django" />
@@ -49,6 +51,7 @@ const Projects = () => {
                         <span className='project-exp'>{t('todoAppExplain')}</span>
                     </div>
                     <GoToButton />
+                    <br />
 
                 </div>
 
