@@ -8,6 +8,7 @@ import Languages from './languages';
 import { useTranslation } from 'react-i18next';
 import Hero from './Hero';
 import Projects from './Projects';
+import Certificate from './Certs';
 
 
 
@@ -44,6 +45,8 @@ const Home = () => {
                     <Languages />
                     <hr />
                     <Projects />
+                    <hr />
+                    <Certificate />
                 </div>
 
             ) : (

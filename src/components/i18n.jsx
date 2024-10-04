@@ -59,8 +59,9 @@ i18n
               "todoAppExplain": "اپلیکیشن لیست کارها، با قابلیت احراز هویت و ساخت کار ها و ویرایش قابلیت های کار ها از جمله پین کردن، تعیین تاریخ انجام، اضافه و حذف حساب کاربری و کار ها, و دریافت نوتیفیکیشن قبل از اتمام مهلت انجام کارها...",
 
               "pythonCertExplain": "برنامه نویسی پیشرفته پایتون",
-              "DjangoCertExplain": "جامپ بک اند با جنگو",
-              "SQLCertExplain": "آموزش عملی دیتابیس",
+              "djangoCertExplain": "جامپ بک اند با جنگو",
+              "sqlCertExplain": "آموزش عملی دیتابیس",
+              "deisgnPCertExplain": "آموزش عملی دیزاین پترن ها",
 
               
 
@@ -118,6 +119,7 @@ i18n
             "pythonCertExplain": "Advanced Python Programming and Object-Oriented Thinking Course",
             "DjangoCertExplain": "Professional Project-Oriented Course in Backend Development with Django",
             "SQLCertExplain": "Task-Oriented course in SQL",
+            "deisgnPCertExplain": "Task-Oriented Course in Design Patterns",
             
         }
       },
@@ -171,6 +173,7 @@ i18n
             "pythonCertExplain": "Advanced Python Programming and Object-Oriented Thinking Course",
             "DjangoCertExplain": "Berufsorientierter, projektbezogener Kurs in Backend-Entwicklung mit Django",
             "SQLCertExplain": "Aufgabenorientierter Kurs in SQL",
+            "deisgnPCertExplain": "Aufgabenorientierter Kurs in Design Patterns",
         }
       }
     },

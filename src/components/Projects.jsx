@@ -14,9 +14,22 @@ import GoToButton from './GoToBtn';
 
 const Projects = () => {
 
+    const isMobile = useMediaQuery('(max-width: 768px)');
+
+
     const { t } = useTranslation();
 
-    const isMobile = useMediaQuery('(max-width: 768px)');
+    const currentLanguage = (lng) => {
+        if (lng === "fa") {
+            document.body.style.direction = "rtl";
+        } else {
+            document.body.style.direction = "ltr";
+        }
+    };
+
+    useEffect(() => {
+        currentLanguage(i18n.language);
+    }, [i18n.language]);
 
     return(
         <div>
