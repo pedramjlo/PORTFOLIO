@@ -28,35 +28,28 @@ const Languages = () => {
     return(
         <div>
             {isMobile ? (
-
                 <div className='section-container'>
-
+    
                     <div className='section-title-container'>
                         <span className='section-title'>{t('languages')}</span>
                     </div>
-
-
+    
                     <div className='section-item'>
                         <span className='skill-title'>{t('english')}</span>
                         <span className='skill-explain'>{t('english-exp')}</span>
                     </div>
-
                     <div className='section-item'>
                         <span className='skill-title'>{t('farsi')}</span>
                         <span className='skill-explain'>{t('farsi-exp')}</span>
                     </div>
-
                     <div className='section-item'>
                         <span className='skill-title'>{t('deutsch')}</span>
                         <span className='skill-explain'>{t('deutsch-exp')}</span>
                     </div>
-
-
                 </div>
-
             ) : (
                 <div>
-
+                    
                 </div>
             )}
         </div>

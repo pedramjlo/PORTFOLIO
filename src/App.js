@@ -5,7 +5,7 @@ import logo from './logo.svg';
 import './App.css';
 import './components/i18n';
 
-import Home from './components/Home';
+import Home from './components/home';
 
 function App() {
   return (

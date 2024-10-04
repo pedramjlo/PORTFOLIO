@@ -7,6 +7,7 @@ import PrimarySkills from './PrimarySkills';
 import { useTranslation } from 'react-i18next';
 import Hero from './Hero';
 import Languages from './languages';
+import Projects from './Projects';
 
 
 
@@ -36,12 +37,12 @@ const Home = () => {
                 <div className='container main'>
                     <Navbar />
                     <Hero />
-                    <div class="separator"></div>
+                    <hr />
                     <PrimarySkills />
-                    <div class="separator"></div>
+                    <hr />
                     <Languages />
-                    <div class="separator"></div>
-                    
+                    <hr />
+                    <Projects />
                 </div>
 
             ) : (

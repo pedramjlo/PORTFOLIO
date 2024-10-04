@@ -55,6 +55,8 @@ i18n
               "blogAppExplain": "CRUD app, RestFUL API views, rest framework, Django, user authentication & registration, upvote/downvote posts, users allowed to create post only when the Author role is granted.",
 
               "todoApp": "لیست کار ها - To Do list App",
+              "todoAppingreds": "Python, Django, template system(HTML+CSS+Javascript), MySQL, Bootstrap",
+              "todoAppExplain": "اپلیکیشن لیست کارها، با قابلیت احراز هویت و ساخت کار ها و ویرایش قابلیت های کار ها از جمله پین کردن، تعیین تاریخ انجام، اضافه و حذف حساب کاربری و کار ها, و دریافت نوتیفیکیشن قبل از اتمام مهلت انجام کارها...",
 
               "pythonCertExplain": "برنامه نویسی پیشرفته پایتون",
               "DjangoCertExplain": "جامپ بک اند با جنگو",
@@ -109,6 +111,9 @@ i18n
             "blogAppingreds": "Python3, Django, Rest Framework, RestAPI Views, Serializers, MySQL",
 
             "todoApp": "To-do-list Application",
+            "todoAppExplain": "A to-do list application with authentication capabilities, task creation, and editing features such as pinning, setting due dates, adding and deleting user accounts and tasks, and receiving notifications before task deadlines.",
+            
+            
 
             "pythonCertExplain": "Advanced Python Programming and Object-Oriented Thinking Course",
             "DjangoCertExplain": "Professional Project-Oriented Course in Backend Development with Django",
@@ -161,6 +166,7 @@ i18n
             "blogAppingreds": "Python3, Django, Rest Framework, RestAPI Views, Serializers, MySQL",
 
             "todoApp": "To-Do-Liste Anwendung",
+            "todoAppExplain": "Eine To-Do-Listen-Anwendung mit Authentifizierungsfunktionen, Aufgaben-Erstellung und Bearbeitungsfunktionen wie Anheften, Festlegen von Fälligkeitsdaten, Hinzufügen und Löschen von Benutzerkonten und Aufgaben sowie dem Erhalt von Benachrichtigungen vor Ablauf der Aufgabenfristen.",
 
             "pythonCertExplain": "Advanced Python Programming and Object-Oriented Thinking Course",
             "DjangoCertExplain": "Berufsorientierter, projektbezogener Kurs in Backend-Entwicklung mit Django",
