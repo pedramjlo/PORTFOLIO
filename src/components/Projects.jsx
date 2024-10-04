@@ -23,7 +23,7 @@ const Projects = () => {
             {isMobile ? (
                 <div className='section-container'>
                     <div className='section-title-container'>
-                        <span className='section-title'>{t('primarySkills')}</span>
+                        <span className='section-title'>{t('projects')}</span>
                     </div>
                     <div className='section-content'>
                         <img src={DaeiAli} alt="DaeiAli" />
@@ -33,6 +33,23 @@ const Projects = () => {
                         <span className='project-exp'>{t('daeiAliExplain')}</span>
                     </div>
                     <GoToButton />
+                    <hr />
+                    <div className='section-content'>
+                        <img src={Django} alt="Django" />
+                        <span className='project-title'>{t('blogApp')}</span>
+                        <p className='project-ingreds'>{t('blogAppingreds')}</p>
+                        <span className='project-exp'>{t('blogAppExplain')}</span>
+                    </div>
+                    <GoToButton />
+                    <hr />
+                    <div className='section-content'>
+                        <img src={Django} alt="Django" />
+                        <span className='project-title'>{t('todoApp')}</span>
+                        <p className='project-ingreds'>{t('todoAppingreds')}</p>
+                        <span className='project-exp'>{t('todoAppExplain')}</span>
+                    </div>
+                    <GoToButton />
+
                 </div>
 
             ) : (
