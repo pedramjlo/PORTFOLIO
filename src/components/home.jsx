@@ -9,6 +9,7 @@ import { useTranslation } from 'react-i18next';
 import Hero from './Hero';
 import Projects from './Projects';
 import Certificate from './Certs';
+import Footer from './Footer';
 
 
 
@@ -35,18 +36,24 @@ const Home = () => {
     return(
         <div>
             {isMobile ? (
-                <div className='container main'>
-                    <Navbar />
-                    <Hero />
-                    <br />
-                    <hr />
-                    <PrimarySkills />
-                    <hr />
-                    <Languages />
-                    <hr />
-                    <Projects />
-                    <hr />
-                    <Certificate />
+                <div>
+                    <main className='container main'>
+                        <Navbar />
+                        <Hero />
+                        <br />
+                        <hr />
+                        <PrimarySkills />
+                        <hr />
+                        <Languages />
+                        <hr />
+                        <Projects />
+                        <hr />
+                        <Certificate />
+                    </main>
+
+                    <footer>
+                        <Footer />
+                    </footer>
                 </div>
 
             ) : (

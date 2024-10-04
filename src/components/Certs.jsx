@@ -10,8 +10,7 @@ import SQL from '../images/certs/sql-cert.jpg';
 import DP from '../images/certs/dp-cert.jpg';
 
 
-import '../styles/projects.css';
-import GoToButton from './GoToBtn';
+
 
 
 

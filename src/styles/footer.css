@@ -1,0 +1,55 @@
+.footer {
+    background-color: #36454F;
+    
+}
+
+@media only screen and (min-width: 375px) {
+    /* Styles for iPhone SE 2020 */
+    .footer {
+        min-width: 100%;
+        height: 40vh;
+        padding: 25px;
+        direction: ltr !important;
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+    }
+
+    .footer img {
+        width: 8vw;
+        height: 8vh;
+    }
+
+    .footer-row {
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: left;
+    }
+  }
+  
+  @media only screen and (min-width: 414px) {
+    /* Styles for iPhone 15 */
+  }
+  
+  @media only screen and (min-width: 430px) {
+    /* Styles for iPhone 15 Pro Max */
+    .footer {
+        min-width: 100%;
+        height: 30vh;
+        padding: 25px;
+        direction: ltr !important;
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        gap: 1vh;
+    }
+
+    .footer-row {
+        gap: 10vw;
+    }
+  
+  }
+  
