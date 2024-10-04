@@ -36,46 +36,30 @@ const PrimarySkills = () => {
                         <span className='section-title'>{t('primarySkills')}</span>
                     </div>
 
-                    <div className='section-item'>
+                    <div className='section-content'>
                         <span className='skill-title'>{t('python')}</span>
-                        <span className='skill-explain'>{t('python-exp')}</span>
+                        <span className='skill-exp'>{t('python-exp')}</span>
                     </div>
 
-                    <div className='section-item'>
+                    <div className='section-content'>
                         <span className='skill-title'>{t('django')}</span>
-                        <span className='skill-explain'>{t('django-exp')}</span>
+                        <span className='skill-exp'>{t('django-exp')}</span>
                     </div>
 
-                    <div className='section-item'>
+                    <div className='section-content'>
                         <span className='skill-title'>{t('sql')}</span>
-                        <span className='skill-explain'>{t('sql-exp')}</span>
+                        <span className='skill-exp'>{t('sql-exp')}</span>
                     </div>
 
-                    <div className='section-item'>
+                    <div className='section-content'>
                         <span className='skill-title'>{t('javascript')}</span>
-                        <span className='skill-explain'>{t('javascript-exp')}</span>
+                        <span className='skill-exp'>{t('javascript-exp')}</span>
                     </div>
 
-                    <div className='section-item'>
+                    <div className='section-content'>
                         <span className='skill-title'>{t('react')}</span>
-                        <span className='skill-explain'>{t('react-exp')}</span>
+                        <span className='skill-exp'>{t('react-exp')}</span>
                     </div>
-
-                    <div className='section-item'>
-                        <span className='skill-title'>HTML/CSS</span>
-                        <span className='skill-explain'>{t('html-exp')}</span>
-                    </div>
-
-                    <div className='section-item'>
-                        <span className='skill-title' style={{ direction: "ltr" }}>C#</span>
-                        <span className='skill-explain'>{t('csharp-exp')}</span>
-                    </div>
-
-                    <div className='section-item'>
-                        <span className='skill-title'>Bootstrap</span>
-                        <span className='skill-explain'>{t('javascript-exp')}</span>
-                    </div>
-
 
                 </div>
 

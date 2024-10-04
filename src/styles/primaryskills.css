@@ -14,37 +14,13 @@
 @media only screen and (min-width: 375px) {
     /* Styles for iPhone SE 2020 */
 
-    .section-container {
-        display: flex;
-        flex-direction: column;
-        gap: 8vh;
-    }
-
-    .container-item {
-        display: flex;
-        flex-direction: column;
-    }
-
     .section-title {
         font-size: 1.5em;
-        font-weight: 800;
+        text-decoration: underline;
+        text-decoration-color: #58B2FE;
+        text-underline-offset: 1.5vh;
     }
 
-    .section-item {
-        transform: translateY(1vh);
-        display: flex;
-        flex-direction: column;
-    }
-
-    .skill-title {
-        font-size: 1.3em;
-        font-weight: 800;
-    }
-
-    .skill-explain {
-        font-size: 1em;
-        color: #AEAEAE;
-    }
   }
   
   @media only screen and (min-width: 414px) {

@@ -6,7 +6,6 @@ import PrimarySkills from './PrimarySkills';
 
 import { useTranslation } from 'react-i18next';
 import Hero from './Hero';
-import Languages from './languages';
 import Projects from './Projects';
 
 
@@ -39,8 +38,6 @@ const Home = () => {
                     <Hero />
                     <hr />
                     <PrimarySkills />
-                    <hr />
-                    <Languages />
                     <hr />
                     <Projects />
                 </div>

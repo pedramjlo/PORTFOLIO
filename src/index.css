@@ -32,12 +32,6 @@ a {
 
 
 
-.section-title {
-  font-weight: 800;
-  text-decoration: underline;
-  text-decoration-color: #58B2FE;
-  text-underline-offset: 3vh;
-}
 
 
 
@@ -46,38 +40,31 @@ a {
 
 @media only screen and (min-width: 375px) {
   /* Styles for iPhone SE 2020 */
-  .skill-explain {
-    transform: translateY(-1vh);
-  }
-
-  .container.main {
-    display: flex;
-    flex-direction: column;
-
-  }
-
-  .section-title {
-    font-size: 1.5em;
-  }
-
   .section-container {
-    display: flex;
     text-align: center;
   }
 
-  .project-title {
-    color: #58B2FE;
-    font-size: 1.3em;
+  .section-content {
+    margin: 8vh 10vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-title {
+    font-size: 1.7em;
     font-weight: 800;
+    text-decoration: underline;
+    text-decoration-color: #58B2FE;
+    text-underline-offset: 1.5vh;
   }
 
-  .project-ingreds {
+  .skill-title {
+    font-size: 1.5em;
+  }
+
+  .skill-exp {
+    font-size: 1em;
     color: #AEAEAE;
-    font-size: 0.8rem;
-  }
-
-  .project-date {
-    color: #A3F88F;
   }
   
 }

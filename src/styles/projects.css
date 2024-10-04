@@ -1,26 +1,5 @@
 @media only screen and (min-width: 375px) {
     /* Styles for iPhone SE 2020 */
-    .section-body {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .section-body img {
-        width: 80vw;
-        height: 45vh;
-        border-radius: 15px;
-    }
-
-    .section-item {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    .skill-explain {
-        font-size: 1em;
-    }
 
 }
   
