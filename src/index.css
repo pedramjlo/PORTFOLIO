@@ -5,7 +5,7 @@ body {
 
   font-family: "Vazirmatn", sans-serif;
   font-style: normal;
-  font-weight: 700;
+
   
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -29,10 +29,6 @@ a {
   flex-direction: column;
 
 }
-
-
-
-
 
 
 

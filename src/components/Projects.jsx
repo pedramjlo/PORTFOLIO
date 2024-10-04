@@ -21,11 +21,21 @@ const Projects = () => {
     return(
         <div>
             {isMobile ? (
-                <div>
-                    
+                <div className='section-container'>
+                    <div className='section-title-container'>
+                        <span className='section-title'>{t('primarySkills')}</span>
+                    </div>
+                    <div className='section-content'>
+                        <img src={DaeiAli} alt="DaeiAli" />
+                        <span className='project-title'>{t('daeiAli')}</span>
+                        <p className='project-ingreds'>{t('daeiAliingreds')}</p>
+                        <span className='project-date'>{t('daeiAliDelivery')}</span>
+                        <span className='project-exp'>{t('daeiAliExplain')}</span>
+                    </div>
+                    <GoToButton />
                 </div>
 
-            ): (
+            ) : (
                 <div>
 
                 </div>

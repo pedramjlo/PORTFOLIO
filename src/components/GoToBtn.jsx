@@ -31,7 +31,10 @@ const GoToButton = (value) => {
     return(
         <div>
             {isMobile ? (
-                <button type="button" class="btn btn-secondary" style={{ backgroundColor: "#58B2FE" }}>{t('gotoButton')}</button>
+                <div>
+                    <button type="button" class="btn btn-secondary" style={{ backgroundColor: "#58B2FE" }}><span>{t('gotoButton')}</span></button>
+                    <a href="#"></a>
+                </div>
             ) : (
                 <div>
 

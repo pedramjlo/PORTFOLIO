@@ -1,6 +1,32 @@
 @media only screen and (min-width: 375px) {
     /* Styles for iPhone SE 2020 */
+    .section-content {
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+    }
 
+    .section-content img {
+        border-radius: 15px;
+    }
+
+    .project-title {
+        color: #58B2FE;
+        font-size: 1.4em;
+        font-weight: 700;
+    }
+
+    .project-ingreds {
+        color: #AEAEAE;
+        font-size: 0.8em;
+        font-weight: 500;
+    }
+
+    .project-date {
+        color: #A3F88F;
+        font-size: 1em;
+        font-weight: 700;
+    }
 }
   
 @media only screen and (min-width: 414px) {
