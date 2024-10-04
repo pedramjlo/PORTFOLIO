@@ -57,6 +57,16 @@ const PrimarySkills = () => {
                     </div>
 
                     <div className='section-content'>
+                        <span className='skill-title'>{t('html')}</span>
+                        <span className='skill-exp'>{t('html-exp')}</span>
+                    </div>
+
+                    <div className='section-content'>
+                        <span className='skill-title'>{t('csharp')}</span>
+                        <span className='skill-exp'>{t('csharp-exp')}</span>
+                    </div>
+
+                    <div className='section-content'>
                         <span className='skill-title'>{t('react')}</span>
                         <span className='skill-exp'>{t('react-exp')}</span>
                     </div>
