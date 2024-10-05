@@ -35,18 +35,15 @@ const Footer = () => {
                 <div className='footer'>
 
                     <div className='footer-row'>
-                        
-                        <a href="tel:+989336335973"><img src={Call} alt="call" /><span>+98933 633 5973</span></a>
+                       <div> <a href="tel:+989336335973"><img src={Call} alt="call" /><span style={{ color: "#ffffff" }}>+98933 633 5973</span></a></div>
                     </div>
 
                     <div className='footer-row'>
-                        
-                        <a href="mailto:pedram_sif@tuta.io"><img src={Mail} alt="mail" />pedram_sif@tuta.io</a>
+                        <a href="mailto:pedram_sif@tuta.io"><img src={Mail} alt="mail"/><span style={{ color: "#ffffff" }} >pedram_sif@tuta.io</span></a>
                     </div>
 
                     <div className='footer-row'>
-                        
-                        <img src={Home} alt="call" /><span>Iran, Kerman</span>
+                        <div><img src={Home} alt="call" /><span>Iran, Kerman</span></div>
                     </div>
 
                 </div>
