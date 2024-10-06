@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import useMediaQuery from './MediaQuery';
 
-import Navbar from './Navbar';
+import Navbar from './navbar';
 import PrimarySkills from './PrimarySkills';
 import Languages from './languages';
 
@@ -16,7 +16,7 @@ import Footer from './Footer';
 const Home = () => {
 
 
-    const { t, i18n } = useTranslation();
+    const { i18n } = useTranslation();
 
     const isMobile = useMediaQuery('(max-width: 768px)');
 

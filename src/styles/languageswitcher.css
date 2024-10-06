@@ -1,33 +1,50 @@
-@media only screen and (max-width: 767px) {
-        .container {
-            display: flex;
-            justify-content: center;
-            padding: 10px;
-        }
-}
 
 
 @media only screen and (min-width: 375px) {
     /* Styles for iPhone SE 2020 */
-    .container {
-        gap: 5px;
-    }
+    
     
 }
   
 @media only screen and (min-width: 414px) {
     /* Styles for iPhone 15 */
-    .container {
-        gap: 5px;
-    }
+
 
 }
   
 @media only screen and (min-width: 430px) {
     /* Styles for iPhone 15 Pro Max */
-    .container {
-        gap: 5px;
-    }
+
+   
 
 }
   
+
+@media only screen and (min-width: 1366px)  {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .d-flex {
+        width: 6vw;
+        display: flex;
+        flex-direction: row;
+        gap: 0; /* Adjust this value as needed */
+    }
+    
+    .language-button {
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+    
+    .language-icon {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+    }
+    
+    
+}

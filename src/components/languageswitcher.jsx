@@ -22,24 +22,15 @@ const LanguageSwitcher = () => {
   };
 
   return (
-
-
-    <div class="container">
-      <div class="row">
-
-        <div class="col">
-
-          {languages.filter(lng => lng !== i18n.language).map(lng => (
-            <button key={lng} onClick={() => changeLanguage(lng)} style={{ border: 'none', background: 'none', cursor: 'pointer'}}>
-              <img src={languageIcons[lng]} alt={`${lng} flag`} style={{width: '26px', height: '26px', borderRadius: '50%'}}  />
-            </button>
-          ))}
-
-        </div>
-          
+    <div className="container">
+      <div className="d-flex justify-content-center">
+        {languages.filter(lng => lng !== i18n.language).map(lng => (
+          <button key={lng} onClick={() => changeLanguage(lng)} className="language-button">
+            <img src={languageIcons[lng]} alt={`${lng} flag`} className="language-icon" />
+          </button>
+        ))}
       </div>
     </div>
-
   );
 };
 

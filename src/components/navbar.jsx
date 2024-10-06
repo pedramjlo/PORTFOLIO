@@ -5,8 +5,8 @@ import { useTranslation } from 'react-i18next';
 import i18n from 'i18next';
 
 import '../styles/navbar.css';
-import LanguageSwitcher from './LanguageSwitcher';
-
+import LanguageSwitcher from './languageswitcher';
+import ResumeIcons from './ResumeIcons';
 
 
 
@@ -26,7 +26,7 @@ const Navbar = () => {
 
     useEffect(() => {
         currentLanguage(i18n.language);
-    }, [i18n.language]);
+    }, []);
 
     
 
@@ -35,17 +35,23 @@ const Navbar = () => {
             {isMobile ? (
                 <div>
                     <nav className='nav'>
-                        <a href="/" id='logo'>{t('logo')}</a>
+                        
                         <LanguageSwitcher id="language-switcher" />
                     </nav>
                 </div>
 
                 
             ) : (
-                <nav className='nav'>
-                    <a href="/" id='logo'>{t('logo')}</a>
-                    <LanguageSwitcher />
-                </nav>
+                <div className="container">
+                    <div className="d-flex justify-content-space-around align-items-center">
+                        <div><LanguageSwitcher /></div>
+                        <div><a href="/"><span id='logo'>{t('logo')}</span></a></div>
+                        <div><ResumeIcons /></div>
+                    </div>
+                </div>
+
+
+
             )}
         </div>
     );

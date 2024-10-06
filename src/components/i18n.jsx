@@ -26,14 +26,13 @@ i18n
               "python-exp": '۳ سال سابقه',
               "django": 'جنگو',
               "django-exp": '۲ سال سابقه',
-              "html": 'HTML/CSS',
               "sql": 'SQL',
               "sql-exp": '۲ سال سابقه',
               "react": 'ReactJS',
               "react-exp": 'کمتر از یک سال سابقه',
               "javascript": "جاوا اسکریپت",
               "javascript-exp": "۱ سال سابقه",
-              "html": 'HTML/CSS',
+              "htmlcss": 'HTML/CSS',
               "html-exp": "۲ سال سابقه",
               "csharp": "C#",
               "csharp-exp": "آشنا با سینتکس و اصول پایه از جمله LINQ و غیره",
@@ -60,7 +59,7 @@ i18n
 
               "pythonCertExplain": "برنامه نویسی پیشرفته پایتون",
               "djangoCertExplain": "جامپ بک اند با جنگو",
-              "sqlCertExplain": "آموزش عملی دیتابیس",
+              "SQLCertExplain": "آموزش عملی دیتابیس",
               "deisgnPCertExplain": "آموزش عملی دیزاین پترن ها",
 
               

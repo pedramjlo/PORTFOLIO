@@ -67,9 +67,7 @@ nav {
   
 @media only screen and (min-width: 430px) {
     /* Styles for iPhone 15 Pro Max */
-    nav {
-
-    }
+    
 
     #logo {
         font-size: 1.3em;
@@ -83,3 +81,29 @@ nav {
 
 }
   
+
+
+@media only screen and (min-width: 1366px) {
+
+    .container {
+        min-width: 100%;
+        height: 15vh;
+        padding: 30px;
+    }
+
+    #logo {
+        font-size: 1.4em; /* Adjust size as needed */
+        font-weight: 700;
+        margin: 0; /* Ensure no unwanted margins */
+        overflow: hidden; /* Prevent overflow issues */
+        white-space: nowrap; /* Prevent text wrapping */
+    }
+
+
+    #logo span {
+        font-size: 2em; 
+        font-weight: 700;
+        margin: 0; /* Ensure no unwanted margins */
+        overflow: hidden; /* Prevent overflow issues */
+    }
+}
