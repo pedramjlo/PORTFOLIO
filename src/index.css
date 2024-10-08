@@ -24,14 +24,10 @@ a {
   text-decoration: none;
 }
 
-.container.main {
-  display: flex;
-  flex-direction: column;
 
+.logo {
+  color: #58B2FE;
 }
-
-
-
 
 
 @media only screen and (min-width: 375px) {

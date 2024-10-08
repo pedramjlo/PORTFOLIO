@@ -1,109 +1,87 @@
 nav {
-    min-width: 100%;
-    position: sticky;
-}
-
-#logo {
-    display: flex;
-    justify-content: space-around;
+    width: 100%;
 }
 
 
 
 
-/* Common attributes on mobile designs */
+/*  */
 
 
 
 @media only screen and (min-width: 375px) {
     /* Styles for iPhone SE 2020 */
-    .nav {
+    .navbar {
+        padding: 20px;
+    }
+
+    .logo {
+        font-size: 1.2em;
+        font-weight: 800;
+    }
+
+    .nav-item.resume-icons {
         display: flex;
-        flex-direction: column;
-        gap: 20px;
-        justify-content: center;
-        text-align: center;
-        padding-top: 4vh;
+        gap: 10px;
     }
 
-
-    #logo {
-        display: inline-block;
-        overflow: hidden;
-        white-space: nowrap;
-        font-size: 2em;
-        font-weight: 700;
+    #github-icon {
+        width: 32px;
+        height: 32px;
     }
 
-
-
-    #language-switcher {
+    #quera-icon {
+        width: 28px;
+        height: 28px;
     }
-    
+
 }
   
 @media only screen and (min-width: 414px) {
     /* Styles for iPhone 15 */
-    .nav {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+ 
+
+    #github-icon {
+        width: 40px;
+        height: 40px;
     }
 
-    #logo {
-        display: inline-block;
-        overflow: hidden;
-        white-space: nowrap;
-        font-size: 2em;
-        font-weight: 700;
-    }
-
-    #language-switcher {
-        position: absolute;
-        top: 15vh;
+    #quera-icon {
+        width: 36px;
+        height: 36px;
     }
 
 }
   
 @media only screen and (min-width: 430px) {
     /* Styles for iPhone 15 Pro Max */
-    
 
-    #logo {
-        font-size: 1.3em;
-        font-weight: 700;
-    }
-
-    #language-switcher {
-        position: absolute;
-        top: 15vh;
-    }
 
 }
   
 
 
 @media only screen and (min-width: 1366px) {
-
-    .container {
-        min-width: 100%;
-        height: 15vh;
-        padding: 30px;
+    .navbar {
+        gap: 55vw;
     }
 
-    #logo {
-        font-size: 1.4em; /* Adjust size as needed */
-        font-weight: 700;
-        margin: 0; /* Ensure no unwanted margins */
-        overflow: hidden; /* Prevent overflow issues */
-        white-space: nowrap; /* Prevent text wrapping */
+    .logo {
+        font-size: 1.5em;
+        font-weight: 800;
     }
 
+    
 
-    #logo span {
-        font-size: 2em; 
-        font-weight: 700;
-        margin: 0; /* Ensure no unwanted margins */
-        overflow: hidden; /* Prevent overflow issues */
+    #github-icon {
+        width: 40px;
+        height: 40px;
     }
+
+    #quera-icon {
+        width: 36px;
+        height: 36px;
+    }
+
+    
 }

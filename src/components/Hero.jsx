@@ -6,7 +6,6 @@ import i18n from 'i18next';
 
 import Man from '../images/man.svg'
 
-import ResumeIcons from './ResumeIcons';
 import ContactBtn from './ContactBtn';
 
 
@@ -28,7 +27,6 @@ const Hero = () => {
                     <div className='hero-texts'>
                         <span id='welcome-text'>{t('welcome')}</span>
                         <p id='hero-description'>{t('description')}</p>
-                        <ResumeIcons />
                         <ContactBtn />
                     </div>
                 </div>
