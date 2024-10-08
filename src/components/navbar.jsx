@@ -59,25 +59,25 @@ const Navbar = () => {
 
 
     return (
-        <div>
+        <nav>
             {isMobile ? (
-                    <nav class="navbar">
+                    <div class="navbar">
 
-                        <div className='nav-item'><a className='logo' href="/">{t('logo')}</a></div>
+                        <div className='navbar-item'><a className='logo' href="/">{t('logo')}</a></div>
 
-                        <div className='nav-item resume-icons'>
+                        <div className='navbar-item resume-icons'>
                             <img id='github-icon' src={Github} alt="Github" />
                             <img id='quera-icon' src={Quera} alt="Quera" />
                         </div>
 
-                    </nav>
+                    </div>
             ) : ( 
 
                 <nav class="navbar">
 
-                    <div className='nav-item'><a className='logo' href="/">{t('logo')}</a></div>
+                    <div className='navbar-item'><a className='logo' href="/">{t('logo')}</a></div>
 
-                    <div className='nav-item resume-icons'>
+                    <div className='navbar-item resume-icons'>
                         <img id='github-icon' src={Github} alt="Github" />
                         <img id='quera-icon' src={Quera} alt="Quera" />
                     </div>
@@ -85,7 +85,7 @@ const Navbar = () => {
                 </nav>
 
             )}
-        </div>
+        </nav>
     );
 };
 

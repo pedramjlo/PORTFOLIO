@@ -1,7 +1,14 @@
-nav {
-    width: 100%;
+.navbar {
+    display: flex;
+    flex-direction: row;
+    min-width: 100%;
+    margin: 0;
 }
 
+.navbar-item.resume-icons {
+    display: flex;
+    align-items: center;
+}
 
 
 
@@ -12,7 +19,7 @@ nav {
 @media only screen and (min-width: 375px) {
     /* Styles for iPhone SE 2020 */
     .navbar {
-        padding: 20px;
+        padding: 4vh 3vw;
     }
 
     .logo {
@@ -20,9 +27,9 @@ nav {
         font-weight: 800;
     }
 
-    .nav-item.resume-icons {
-        display: flex;
-        gap: 10px;
+    .navbar-item.resume-icons {
+        gap: 20px;
+        
     }
 
     #github-icon {
@@ -63,7 +70,7 @@ nav {
 
 @media only screen and (min-width: 1366px) {
     .navbar {
-        gap: 55vw;
+        padding: 3vh 8vw;
     }
 
     .logo {
