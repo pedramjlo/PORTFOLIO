@@ -1,5 +1,8 @@
-.hero-image {
-
+button {
+    border: none;
+    background: none;
+    width: auto;
+    height: auto;
 }
 
 @media only screen and (min-width: 375px) {
@@ -39,5 +42,23 @@
     .hero img {
         
     }
+    .hero-conatiner {
+
+    }
 }
   
+
+@media only screen and (min-width: 1366px) {
+    .hero-conatiner {
+    }
+
+    .language-buttons {
+        width: 10vw;
+        display: flex;
+        
+    }
+    .language-buttons button img {
+        width: 32px;
+        height: 32px;
+    }
+}

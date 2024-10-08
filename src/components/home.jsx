@@ -36,33 +36,39 @@ const Home = () => {
     return(
         <div>
             {isMobile ? (
-                <div>
-                    <main className='container main'>
-                        <Navbar />
-                        <Hero />
-                        <br />
-                        <hr />
-                        <PrimarySkills />
-                        <hr />
-                        <Languages />
-                        <hr />
-                        <Projects />
-                        <hr />
-                        <Certificate />
-                    </main>
-
-                    <footer>
-                        <Footer />
-                    </footer>
-                </div>
+                <div className='container main'>
+                    <Navbar />
+                    <Hero />
+                    <br />
+                    <hr />
+                    <PrimarySkills />
+                    <hr />
+                    <Languages />
+                    <hr />
+                    <Projects />
+                    <hr />
+                    <Certificate />
+                    <hr />
+                    <Footer />
+                </div>   
 
             ) : (
 
-                <div>
-                    <header>
-                        <Navbar />
-                    </header>
-                </div>
+                <div className='container main'>
+                    <Navbar />
+                    <Hero />
+                    <br />
+                    <hr />
+                    <PrimarySkills />
+                    <hr />
+                    <Languages />
+                    <hr />
+                    <Projects />
+                    <hr />
+                    <Certificate />
+                    <hr />
+                    <Footer />
+                </div>   
                 
             )}
         </div>
