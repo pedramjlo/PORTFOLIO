@@ -35,10 +35,12 @@ const Hero = () => {
     const renderButtons = () => {
         return (
             <div className='language-buttons'>
-                {languages.filter(lng => lng !== i18n.language).map(lng => (
-                    <button key={lng} onClick={() => changeLanguage(lng)} className="language-button">
-                        {languageIcons[lng]}
-                    </button>
+               {languages.map((lng) => (
+                    <p key={lng}>
+                        <a onClick={() => changeLanguage(lng)} className="link-opacity-75" href="#">
+                            {languageIcons[lng]}
+                        </a>
+                    </p>
                 ))}
             </div>
         );
@@ -47,22 +49,44 @@ const Hero = () => {
     return (
         <div className='hero-container'>
             {isMobile ? (
-                <div>
+                <main>
                     {renderButtons()}
+                    <div className='hero-content'>
+                        
+                        <div className='hero-image'>
+                            <img src={Man} alt="Pedram Jalali" />
+                        </div>
 
-                    <div>
-                        <img src={Man} alt="hero-image" />
-                    </div>
+                        <div className='hero-writings'>
+                            <div className='welcome-text'>
+                                <span>{t('welcome')}</span>
+                            </div>
 
-                    <div className='welcome-text'>
-                        {t('welcome')}
+                            <div className='hero-description'>
+                                <p>{t('description')}</p>
+                            </div>
+                        </div>
+
                     </div>
-                </div>
+                </main>
             ) : (
-                <div className='hero-container'>
+                <div className='hero-content'>
                     {renderButtons()}
-                    <div className='hero-image'>
-                        <img src={Man} alt="hero-image" />
+                    <div className="container">
+
+                        <div className="row">
+
+                            <div className="col">
+                                <span className='welcome-text'>{t('welcome')}</span>
+                                <p className='hero-description'>{t('description')}</p>
+                            </div>
+
+                            <div className="col img">
+                                <img src={Man} alt="hero-image" />
+                            </div>
+
+                        </div>
+
                     </div>
                 </div>
             )}

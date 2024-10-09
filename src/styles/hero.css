@@ -7,26 +7,46 @@ button {
 
 @media only screen and (min-width: 375px) {
     /* Styles for iPhone SE 2020 */
-    .hero img{
-        width: 100vw;
-        height: 35vh;
+    .hero-conatiner {
+        display: flex;
+        flex-direction: column;
     }
-    
-    .hero-texts {
+
+    .language-buttons {
+        width: 10vw;
+        display: flex;
+    }
+    .language-buttons button img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .language-flag {
+        width: 32px;
+        height: 32px;   
+    }
+
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         text-align: center;
-        margin: auto 20px;
     }
 
-    #welcome-text {
-        font-size: 1.5em;
-        font-weight: 800;
-        line-height: 40px;
+    .hero-image img {
+        width: 80vw;
+        height: 60vh;
     }
 
-    #hero-description {
-        padding-top: 3vh;
+    .welcome-text span {
+        font-size: 2em;
+        font-weight: 700;
+    }
+
+    .hero-description span {
         color: #AEAEAE;
-        line-height: 35px;
+        font-size: 1em;
+        font-weight: 600;
     }
 }
   
@@ -49,16 +69,54 @@ button {
   
 
 @media only screen and (min-width: 1366px) {
-    .hero-conatiner {
+   
+    .hero-content {
+        display: flex;
+        
     }
 
     .language-buttons {
         width: 10vw;
         display: flex;
-        
+        gap: 2vw;
     }
     .language-buttons button img {
         width: 32px;
         height: 32px;
+    }
+
+    .language-flag {
+        width: 32px;
+        height: 32px;
+    }
+
+    .hero-image img {
+        width: 50vw;
+        height: 50vh;
+    }
+
+    .hero-writings {
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+    }
+
+    .welcome-text {
+        font-size: 2em;
+    }
+
+    .hero-description  {
+        color: #AEAEAE;
+        font-size: 1em;
+    }
+
+    .row {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+    }
+
+    .col.img{
+
     }
 }
