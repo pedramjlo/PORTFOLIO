@@ -56,10 +56,13 @@ button {
 
     .hero-writings {
         margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+   
     }
 
     .welcome-text {
-        font-size: 2em;
+        font-size: 1.5em;
         font-weight: 700;
     }
 

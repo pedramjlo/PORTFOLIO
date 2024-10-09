@@ -35,7 +35,6 @@ const Certificate = () => {
 
     return(
         <div>
-            {isMobile ? (
                 <div className='section-container'>
 
                 <div className='section-title-container'>
@@ -69,9 +68,7 @@ const Certificate = () => {
 
             </div>
 
-            ) : (
-                <div></div>
-            )}
+        
         </div>
     );
 };

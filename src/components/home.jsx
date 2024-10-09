@@ -48,7 +48,7 @@ const Home = () => {
                     <Projects />
                     <hr />
                     <Certificate />
-                    <br />
+
                 </div>   
 
             ) : (
@@ -63,6 +63,8 @@ const Home = () => {
                     <Languages />
                     <hr />
                     <Projects />
+                    <hr />
+                    <Certificate />
                 </div>   
                 
             )}

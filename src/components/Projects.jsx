@@ -60,8 +60,10 @@ const Projects = () => {
                         <span className='project-date'>{t('daeiAliDelivery')}</span>
                         <span className='project-exp'>{t('daeiAliExplain')}</span>
 
-                        <p><a class="link-opacity-100" href="https://daei-fastfood-ali.ir">{t('gotoButton')}</a></p>
-                        <p><a class="link-opacity-100" href="https://github.com/pedramjlo/Daei-Ali-ORG.git">{t('sourceCode')}</a></p>
+                        <div className='section-content-btns'>
+                            <p><a class="link-opacity-100 btn" href="https://daei-fastfood-ali.ir" style={{ color: "#ffffff" }}>{t('gotoButton')}</a></p>
+                            <p><a class="link-opacity-100" href="https://github.com/pedramjlo/Daei-Ali-ORG.git">{t('sourceCode')}</a></p>
+                        </div>
                     </div>
 
                     <hr />
@@ -71,7 +73,9 @@ const Projects = () => {
                         <p className='project-ingreds'>{t('blogAppingreds')}</p>
                         <span className='project-exp'>{t('blogAppExplain')}</span>
 
-                        <p><a class="link-opacity-100" href="https://github.com/pedramjlo/alketas_blog.git">{t('sourceCode')}</a></p>
+                        <div className='section-content-btns'>
+                            <p><a class="link-opacity-100 btn" href="https://github.com/pedramjlo/alketas_blog.git" style={{ color: "#ffffff" }}>{t('sourceCode')}</a></p>
+                        </div>
 
 
                     </div>
@@ -84,8 +88,9 @@ const Projects = () => {
                         <span className='project-exp'>{t('todoAppExplain')}</span>
                     </div>
 
-                    <button type='button' url="https://www.example.com">Go to Example</button>
-                    <br />
+                    <div className='section-content-btns'>
+                        <p><a class="link-opacity-100 btn" href="https://github.com/pedramjlo/alketas_blog.git" style={{ color: "#ffffff" }}>{t('sourceCode')}</a></p>
+                    </div>
 
                 </div>
 
