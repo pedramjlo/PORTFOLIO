@@ -76,8 +76,6 @@ const Projects = () => {
                         <div className='section-content-btns'>
                             <p><a class="link-opacity-100 btn" href="https://github.com/pedramjlo/alketas_blog.git" style={{ color: "#ffffff" }}>{t('sourceCode')}</a></p>
                         </div>
-
-
                     </div>
                     
                     <hr />
@@ -89,7 +87,7 @@ const Projects = () => {
                     </div>
 
                     <div className='section-content-btns'>
-                        <p><a class="link-opacity-100 btn" href="https://github.com/pedramjlo/alketas_blog.git" style={{ color: "#ffffff" }}>{t('sourceCode')}</a></p>
+                            <p><a class="link-opacity-100 btn" href="https://github.com/pedramjlo/alketas_blog.git" style={{ color: "#ffffff" }}>{t('sourceCode')}</a></p>
                     </div>
 
                 </div>

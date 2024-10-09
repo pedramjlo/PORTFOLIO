@@ -10,7 +10,7 @@ import SQL from '../images/certs/sql-cert.jpg';
 import DP from '../images/certs/dp-cert.jpg';
 
 
-
+import '../styles/certs.css';
 
 
 
@@ -56,7 +56,7 @@ const Certificate = () => {
                 <hr />
                 <div className='section-content'>
                     <img src={SQL} alt="SQL" />
-                    <span className='cert-title'>{t('sqlCertExplain')}</span>
+                    <span className='cert-title'>{t('SQLCertExplain')}</span>
                 </div>
 
                 <hr />

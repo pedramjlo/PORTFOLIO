@@ -131,8 +131,8 @@
   .grid {
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    margin: 5vh auto;
+    gap: 7vh;
+    margin: 6vh auto;
   }
   
   .item {

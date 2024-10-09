@@ -57,7 +57,7 @@ const PrimarySkills = () => {
                     </div>
 
                     <div className='section-content'>
-                        <span className='skill-title'>{t('html')}</span>
+                        <span className='skill-title'>{t('htmlcss')}</span>
                         <span className='skill-exp'>{t('html-exp')}</span>
                     </div>
 
@@ -100,7 +100,7 @@ const PrimarySkills = () => {
                     <span className='skills-exp'>{t('react-exp')}</span>
                 </div>
                 <div class="item">
-                    <span className='skill-title'>{t('html')}</span>
+                    <span className='skill-title'>{t('htmlcss')}</span>
                     <span className='skills-exp'>{t('html-exp')}</span>
                 </div>
                 <div class="item">

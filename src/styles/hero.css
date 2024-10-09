@@ -17,6 +17,10 @@ button {
         align-items: center;
     }
 
+    .hero-text  {
+        padding: auto 5px;
+    }
+
     .hero-conatiner {
         display: flex;
         flex-direction: column;
@@ -47,6 +51,7 @@ button {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        gap: 20px;
     }
 
     .hero-image img {
@@ -70,6 +75,7 @@ button {
         color: #AEAEAE;
         font-size: 1em;
         font-weight: 600;
+        margin: auto 1rem;
     }
 
     .custom-button {

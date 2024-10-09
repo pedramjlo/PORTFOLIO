@@ -120,8 +120,10 @@ const Hero = () => {
 
                         <div className='hero-writings'>
                                 <span className='welcome-text'>{t('welcome')}</span>
-                                <div>
+                                <br />
+                                <div className='hero-text'>
                                     <p className='hero-description'>{t('description')}</p>
+                                    <br />
                                     {modalButton()}
                                 </div>
                         </div>
