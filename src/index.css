@@ -86,6 +86,10 @@ a {
 }
 
 @media only screen and (min-width: 1366px)  {
+  .containe.main {
+    padding: 10px auto;
+  }
+
   .section-title {
     display: block;
     text-align: center;

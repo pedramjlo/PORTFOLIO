@@ -46,9 +46,12 @@
   
 
 @media only screen and (min-width: 1366px)  {
-    
-    .primary-skills > .container {
+    .section-container {
         margin: 50px 10px;
+      }
+      
+      .section-title-container {
+        text-align: center;
       }
       
       .section-title {
@@ -56,31 +59,39 @@
         font-weight: 600;
         text-decoration: underline;
         text-decoration-color: #58B2FE;
+        text-underline-offset: 10px;
       }
       
-      .grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
+      .section-content-wrapper {
+        display: flex;
+        flex-direction: column;
         gap: 30px;
       }
       
-      .item {
-        padding: 20px;
+      .section-content {
         text-align: center;
-        display: flex;
-        flex-direction: column;
       }
       
-      .skill-title {
+      .project-title {
         font-size: 1.2em;
         font-weight: 800;
       }
       
-      .skills-exp {
+      .project-ingreds, .project-date, .project-exp {
         font-size: 0.9em;
         font-weight: 800;
         color: #AEAEAE;
       }
+
+      .link-opacity-100.btn {
+        width: 30vw;
+
+        background-color: rgb(49, 108, 244);
+      }
+
+      .section-content-btns{
+        margin: 6vh auto; 
+      }
+
       
-    
 }
