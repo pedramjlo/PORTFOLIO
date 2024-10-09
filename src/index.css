@@ -32,6 +32,10 @@ a {
 
 @media only screen and (min-width: 375px) {
   /* Styles for iPhone SE 2020 */
+  .container.main {
+    width: 100%;
+  }
+
   .section-container {
     text-align: center;
   }

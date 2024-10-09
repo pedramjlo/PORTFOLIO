@@ -34,42 +34,82 @@ const Projects = () => {
     return(
         <div>
             {isMobile ? (
-                <div className='section-container'>
-                    <div className='section-title-container'>
-                        <span className='section-title'>{t('projects')}</span>
-                    </div>
-                    <div className='section-content'>
-                        <img src={DaeiAli} alt="DaeiAli" />
-                        <span className='project-title'>{t('daeiAli')}</span>
-                        <p className='project-ingreds'>{t('daeiAliingreds')}</p>
-                        <span className='project-date'>{t('daeiAliDelivery')}</span>
-                        <span className='project-exp'>{t('daeiAliExplain')}</span>
-                    </div>
-                    <GoToButton />
-                    <br />
-                    <hr />
-                    <div className='section-content'>
-                        <img src={Django} alt="Django" />
-                        <span className='project-title'>{t('blogApp')}</span>
-                        <p className='project-ingreds'>{t('blogAppingreds')}</p>
-                        <span className='project-exp'>{t('blogAppExplain')}</span>
-                    </div>
-                    <GoToButton />
-                    <br />
-                    <hr />
-                    <div className='section-content'>
-                        <img src={Django} alt="Django" />
-                        <span className='project-title'>{t('todoApp')}</span>
-                        <p className='project-ingreds'>{t('todoAppingreds')}</p>
-                        <span className='project-exp'>{t('todoAppExplain')}</span>
-                    </div>
-                    <GoToButton />
-                    <br />
+                <div className='skills-section'>
 
-                </div>
+        <div className='skills-title-container'>
+            <span className='skills-title'>{t('primarySkills')}</span>
+        </div>
+
+        <div className='skills-grid'>
+            <div className='skill-item'>
+                <span className='skill-name'>{t('python')}</span>
+                <span className='skill-experience'>{t('python-exp')}</span>
+            </div>
+            <div className='skill-item'>
+                <span className='skill-name'>{t('django')}</span>
+                <span className='skill-experience'>{t('django-exp')}</span>
+            </div>
+            <div className='skill-item'>
+                <span className='skill-name'>{t('sql')}</span>
+                <span className='skill-experience'>{t('sql-exp')}</span>
+            </div>
+            <div className='skill-item'>
+                <span className='skill-name'>{t('javascript')}</span>
+                <span className='skill-experience'>{t('javascript-exp')}</span>
+            </div>
+            <div className='skill-item'>
+                <span className='skill-name'>{t('html')}</span>
+                <span className='skill-experience'>{t('html-exp')}</span>
+            </div>
+            <div className='skill-item'>
+                <span className='skill-name'>{t('csharp')}</span>
+                <span className='skill-experience'>{t('csharp-exp')}</span>
+            </div>
+            <div className='skill-item'>
+                <span className='skill-name'>{t('react')}</span>
+                <span className='skill-experience'>{t('react-exp')}</span>
+            </div>
+        </div>
+
+    </div>
 
             ) : (
-                <div>
+                <div className='skills-section'>
+
+                    <div className='skills-title-container'>
+                        <span className='skills-title'>{t('primarySkills')}</span>
+                    </div>
+
+                    <div className='skills-grid'>
+                        <div className='skill-item'>
+                            <span className='skill-name'>{t('python')}</span>
+                            <span className='skill-experience'>{t('python-exp')}</span>
+                        </div>
+                        <div className='skill-item'>
+                            <span className='skill-name'>{t('django')}</span>
+                            <span className='skill-experience'>{t('django-exp')}</span>
+                        </div>
+                        <div className='skill-item'>
+                            <span className='skill-name'>{t('sql')}</span>
+                            <span className='skill-experience'>{t('sql-exp')}</span>
+                        </div>
+                        <div className='skill-item'>
+                            <span className='skill-name'>{t('javascript')}</span>
+                            <span className='skill-experience'>{t('javascript-exp')}</span>
+                        </div>
+                        <div className='skill-item'>
+                            <span className='skill-name'>{t('html')}</span>
+                            <span className='skill-experience'>{t('html-exp')}</span>
+                        </div>
+                        <div className='skill-item'>
+                            <span className='skill-name'>{t('csharp')}</span>
+                            <span className='skill-experience'>{t('csharp-exp')}</span>
+                        </div>
+                        <div className='skill-item'>
+                            <span className='skill-name'>{t('react')}</span>
+                            <span className='skill-experience'>{t('react-exp')}</span>
+                        </div>
+                    </div>
 
                 </div>
             )}
