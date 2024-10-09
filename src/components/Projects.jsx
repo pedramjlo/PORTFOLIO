@@ -134,7 +134,7 @@ const Projects = () => {
                     <span className='project-exp'>{t('todoAppExplain')}</span>
 
                     <div className='section-content-btns'>
-                        <p><a class="link-opacity-100 btn" href="https://github.com/pedramjlo/alketas_blog.git" style={{ color: "#ffffff" }}>{t('sourceCode')}</a></p>
+                        <p><a class="link-opacity-100 btn" href="https://github.com/pedramjlo/todo_list.git" style={{ color: "#ffffff" }}>{t('sourceCode')}</a></p>
                     </div>
 
                 </div>

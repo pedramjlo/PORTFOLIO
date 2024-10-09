@@ -116,7 +116,7 @@ i18n
             
 
             "pythonCertExplain": "Advanced Python Programming and Object-Oriented Thinking Course",
-            "DjangoCertExplain": "Professional Project-Oriented Course in Backend Development with Django",
+            "djangoCertExplain": "Professional Project-Oriented Course in Backend Development with Django",
             "SQLCertExplain": "Task-Oriented course in SQL",
             "deisgnPCertExplain": "Task-Oriented Course in Design Patterns",
             
@@ -169,8 +169,8 @@ i18n
             "todoApp": "To-Do-Liste Anwendung",
             "todoAppExplain": "Eine To-Do-Listen-Anwendung mit Authentifizierungsfunktionen, Aufgaben-Erstellung und Bearbeitungsfunktionen wie Anheften, Festlegen von Fälligkeitsdaten, Hinzufügen und Löschen von Benutzerkonten und Aufgaben sowie dem Erhalt von Benachrichtigungen vor Ablauf der Aufgabenfristen.",
 
-            "pythonCertExplain": "Advanced Python Programming and Object-Oriented Thinking Course",
-            "DjangoCertExplain": "Berufsorientierter, projektbezogener Kurs in Backend-Entwicklung mit Django",
+            "pythonCertExplain": "Fortgeschrittener Python-Programmierung und objektorientiertes Denken Kurs",
+            "djangoCertExplain": "Berufsorientierter, projektbezogener Kurs in Backend-Entwicklung mit Django",
             "SQLCertExplain": "Aufgabenorientierter Kurs in SQL",
             "deisgnPCertExplain": "Aufgabenorientierter Kurs in Design Patterns",
         }
