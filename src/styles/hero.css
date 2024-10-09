@@ -54,12 +54,16 @@ button {
         height: 60vh;
     }
 
-    .welcome-text span {
+    .hero-writings {
+        margin-top: 20px;
+    }
+
+    .welcome-text {
         font-size: 2em;
         font-weight: 700;
     }
 
-    .hero-description span {
+    .hero-description {
         color: #AEAEAE;
         font-size: 1em;
         font-weight: 600;
@@ -132,12 +136,18 @@ button {
         height: 60vh;
     }
 
-    .welcome-text span {
+    .hero-writings {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .welcome-text {
         font-size: 2em;
         font-weight: 700;
     }
 
-    .hero-description span {
+    .hero-description {
         color: #AEAEAE;
         font-size: 1em;
         font-weight: 600;
@@ -183,12 +193,12 @@ button {
         height: 60vh;
     }
 
-    .welcome-text span {
+    .welcome-text {
         font-size: 2em;
         font-weight: 700;
     }
 
-    .hero-description span {
+    .hero-description {
         color: #AEAEAE;
         font-size: 1em;
         font-weight: 600;
@@ -230,7 +240,7 @@ button {
     .hero-writings {
         display: flex;
         flex-direction: column;
-        gap: 5vh;
+        gap: 8vh;
     }
 
     .welcome-text {
@@ -238,7 +248,7 @@ button {
         font-weight: 700;
     }
 
-    .hero-description  {
+    .hero-description {
         color: #AEAEAE;
         font-size: 1em;
     }
@@ -293,7 +303,6 @@ button {
     
     .modal-header-centered .close {
         position: absolute;
-        right: 15px;
     }
     
 }

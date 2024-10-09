@@ -38,33 +38,19 @@
     .primary-skills > .container {
       margin: 50px 10px;
     }
-
+    
     .section-title {
-      display: block;
-      text-align: center;
+      font-size: 1.5em;
+      font-weight: 600;
       text-decoration: underline;
       text-decoration-color: #58B2FE;
       text-underline-offset: 10px;
-  }
-  
-
-    .section-title, #project-card-title {
-      font-size: 1.5em;
-      font-weight: 600;
     }
-    
-    #project-card-title {
-      font-size: 1.3em;
-      font-weight: 800;
-      color: #58B2FE;
-    }
-    
-    
     
     .grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 30px; 
+      gap: 30px;
     }
     
     .item {
@@ -79,12 +65,11 @@
       font-weight: 800;
     }
     
-    
-    .skills-exp, #project-card-ingreds {
+    .skills-exp {
       font-size: 0.9em;
       font-weight: 800;
-      width: auto;
       color: #AEAEAE;
     }
+    
   }
   

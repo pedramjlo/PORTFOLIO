@@ -49,7 +49,6 @@ const Home = () => {
                     <hr />
                     <Certificate />
                     <br />
-                    <Footer />
                 </div>   
 
             ) : (
@@ -60,6 +59,8 @@ const Home = () => {
                     <br />
                     <hr />
                     <PrimarySkills />
+                    <hr />
+                    <Projects />
                 </div>   
                 
             )}

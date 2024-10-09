@@ -74,7 +74,7 @@ const Hero = () => {
                 <Modal show={show} onHide={handleClose} centered>
                     <Modal.Header closeButton className="modal-header-centered">
                         <Modal.Title>
-                            <span style={{ color: "#000000" }}>{t('contact')}</span>
+
                         </Modal.Title>
                     </Modal.Header>
 
@@ -119,14 +119,11 @@ const Hero = () => {
                         </div>
 
                         <div className='hero-writings'>
-                            <div className='welcome-text'>
-                                <span>{t('welcome')}</span>
-                            </div>
-
-                            <div className='hero-description'>
-                                <p>{t('description')}</p>
-                                {modalButton()}
-                            </div>
+                                <span className='welcome-text'>{t('welcome')}</span>
+                                <div>
+                                    <p className='hero-description'>{t('description')}</p>
+                                    {modalButton()}
+                                </div>
                         </div>
 
                     </div>
