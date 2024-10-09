@@ -35,7 +35,7 @@ i18n
               "htmlcss": 'HTML/CSS',
               "html-exp": "۲ سال سابقه",
               "csharp": "C#",
-              "csharp-exp": "آشنا با سینتکس و اصول پایه از جمله LINQ و غیره",
+              "csharp-exp": "آشنا با سینتکس و اصول اساسی از جمله LINQ و غیره",
 
               "farsi": "فارسی",
               "farsi-exp": "زبان مادری",

@@ -60,6 +60,8 @@ const Home = () => {
                     <hr />
                     <PrimarySkills />
                     <hr />
+                    <Languages />
+                    <hr />
                     <Projects />
                 </div>   
                 

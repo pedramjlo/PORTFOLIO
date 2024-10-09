@@ -29,13 +29,7 @@ a {
   color: #58B2FE;
 }
 
-.section-title {
-  display: block;
-  text-align: center;
-  text-decoration: underline;
-  text-decoration-color: #58B2FE;
-  text-underline-offset: 10px;
-}
+
 
 
 @media only screen and (min-width: 375px) {
@@ -55,11 +49,11 @@ a {
   }
 
   .section-title {
-    font-size: 1.7em;
-    font-weight: 800;
+    display: block;
+    text-align: center;
     text-decoration: underline;
     text-decoration-color: #58B2FE;
-    text-underline-offset: 2.5vh;
+    text-underline-offset: 20px;
   }
 
   .skill-title {
@@ -92,6 +86,12 @@ a {
 }
 
 @media only screen and (min-width: 1366px)  {
-
+  .section-title {
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #58B2FE;
+    text-underline-offset: 20px;
+  }
 }
 

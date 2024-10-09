@@ -35,41 +35,42 @@
   }
   
   @media only screen and (min-width: 1366px)  {
-    .primary-skills > .container {
-      margin: 50px 10px;
-    }
-    
-    .section-title {
+    .section-container {
+      margin: 50px 10px; /* Same as your .primary-skills > .container */
+  }
+  
+  .section-title {
       font-size: 1.5em;
       font-weight: 600;
       text-decoration: underline;
       text-decoration-color: #58B2FE;
-      text-underline-offset: 10px;
-    }
-    
-    .grid {
+
+  }
+  
+  .grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 30px;
-    }
-    
-    .item {
+      grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
+      gap: 30px; /* Adds spacing between the items */
+  }
+  
+  .item {
       padding: 20px;
       text-align: center;
       display: flex;
       flex-direction: column;
-    }
-    
-    .skill-title {
+  }
+  
+  .skill-title {
       font-size: 1.2em;
       font-weight: 800;
-    }
-    
-    .skills-exp {
+  }
+  
+  .skills-exp {
       font-size: 0.9em;
       font-weight: 800;
       color: #AEAEAE;
-    }
+  }
+  
     
   }
   

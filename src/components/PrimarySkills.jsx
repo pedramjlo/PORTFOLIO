@@ -62,7 +62,7 @@ const PrimarySkills = () => {
                     </div>
 
                     <div className='section-content'>
-                        <span className='skill-title'>{t('csharp')}</span>
+                        <span className='skill-title' style={{ direction: "ltr" }}>{t('csharp')}</span>
                         <span className='skill-exp'>{t('csharp-exp')}</span>
                     </div>
 
@@ -75,41 +75,41 @@ const PrimarySkills = () => {
 
             ) : (
                 <div className='primary-skills dt'>
-                <span className='section-title dt'>{t('primarySkills')}</span>
+            <span className='section-title dt'>{t('primarySkills')}</span>
 
-                <div class="container dt">
-                    <div class="grid">
-                    <div class="item">
-                        <span className='skill-title'>{t('python')}</span>
-                        <span className='skills-exp'>{t('python-exp')}</span>
-                    </div>
-                    <div class="item">
-                        <span className='skill-title'>{t('django')}</span>
-                        <span className='skills-exp'>{t('django-exp')}</span>
-                    </div>
-                    <div class="item">
-                        <span className='skill-title'>{t('sql')}</span>
-                        <span className='skills-exp'>{t('sql-exp')}</span>
-                    </div>
-                    <div class="item">
-                        <span className='skill-title'>{t('javascript')}</span>
-                        <span className='skills-exp'>{t('javascript-exp')}</span>
-                    </div>
-                    <div class="item">
-                        <span className='skill-title'>{t('react')}</span>
-                        <span className='skills-exp'>{t('react-exp')}</span>
-                    </div>
-                    <div class="item">
-                        <span className='skill-title'>{t('html')}</span>
-                        <span className='skills-exp'>{t('html-exp')}</span>
-                    </div>
-                    <div class="item">
-                        <span className='skill-title'>{t('csharp')}</span>
-                        <span className='skills-exp'>{t('csharp-exp')}</span>
-                    </div>
-                    </div>
+            <div class="container dt">
+                <div class="grid">
+                <div class="item">
+                    <span className='skill-title'>{t('python')}</span>
+                    <span className='skills-exp'>{t('python-exp')}</span>
+                </div>
+                <div class="item">
+                    <span className='skill-title'>{t('django')}</span>
+                    <span className='skills-exp'>{t('django-exp')}</span>
+                </div>
+                <div class="item">
+                    <span className='skill-title'>{t('sql')}</span>
+                    <span className='skills-exp'>{t('sql-exp')}</span>
+                </div>
+                <div class="item">
+                    <span className='skill-title'>{t('javascript')}</span>
+                    <span className='skills-exp'>{t('javascript-exp')}</span>
+                </div>
+                <div class="item">
+                    <span className='skill-title'>{t('react')}</span>
+                    <span className='skills-exp'>{t('react-exp')}</span>
+                </div>
+                <div class="item">
+                    <span className='skill-title'>{t('html')}</span>
+                    <span className='skills-exp'>{t('html-exp')}</span>
+                </div>
+                <div class="item">
+                    <span className='skill-title' style={{ direction: "ltr" }}>{t('csharp')}</span>
+                    <span className='skills-exp'>{t('csharp-exp')}</span>
                 </div>
                 </div>
+            </div>
+            </div>
 
 
             )}
