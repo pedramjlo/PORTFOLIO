@@ -30,30 +30,30 @@ const Languages = () => {
     return(
         <div>
             {isMobile ? (
-                <div className='section-container'>
-
-                <div className='section-title-container'>
-                    <span className='section-title'>{t('languages')}</span>
+                <div className='languages-sect'>
+                <span className='section-title' style={{ textDecoration: 'underline', textDecorationColor: '#58B2FE', textUnderlineOffset: '10px' }}>{t('languages')}</span>
+              
+                <div className="container">
+                  <div className="grid">
+                    <div className="item">
+                      <span className='skill-title'>{t('english')}</span>
+                      <span className='skills-exp'>{t('english-exp')}</span>
+                    </div>
+              
+                    <div className="item">
+                      <span className='skill-title'>{t('farsi')}</span>
+                      <span className='skills-exp'>{t('farsi-exp')}</span>
+                    </div>
+              
+                    <div className="item">
+                      <span className='skill-title'>{t('deutsch')}</span>
+                      <span className='skills-exp'>{t('deutsch-exp')}</span>
+                    </div>
+                  </div>
                 </div>
-
-                <div className='skill-item'>
-                    <span className='skill-title'>{t('english')}</span>
-                    <span className='skill-exp'>{t('english-exp')}</span>
-                </div>
-
-                <div className='skill-item'>
-                    <span className='skill-title'>{t('farsi')}</span>
-                    <span className='skill-exp'>{t('farsi-exp')}</span>
-                </div>
-
-                <div className='skill-item'>
-                    <span className='skill-title'>{t('deutsch')}</span>
-                    <span className='skill-exp'>{t('deutsch-exp')}</span>
-                </div>
-
-
-            </div>
-
+              </div>
+              
+              
             ):(
                 <div className='section-container'>
                     <div className='section-title-container'>

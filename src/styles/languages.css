@@ -1,3 +1,158 @@
+@media only screen and (min-width: 375px) {
+  .languages-sect {
+  }
+  
+  .section-title {
+    font-size: 1.5em;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: #58B2FE;
+    text-underline-offset: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 5vh auto;
+  }
+  
+  .item {
+    text-align: center;
+  }
+  
+  .skill-title {
+    font-size: 1.2em;
+    font-weight: 800;
+  }
+  
+  .skills-exp {
+    font-size: 0.9em;
+    font-weight: 800;
+    color: #AEAEAE;
+  }
+  
+  
+}
+
+  
+@media only screen and (min-width: 414px) {
+  .languages-sect {
+  }
+  
+  .section-title {
+    font-size: 1.5em;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: #58B2FE;
+    text-underline-offset: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 5vh auto;
+  }
+  
+  .item {
+    text-align: center;
+  }
+  
+  .skill-title {
+    font-size: 1.2em;
+    font-weight: 800;
+  }
+  
+  .skills-exp {
+    font-size: 0.9em;
+    font-weight: 800;
+    color: #AEAEAE;
+  }
+  
+  
+
+}
+
+
+
+@media only screen and (min-width: 430px) {
+  /* Styles for iPhone 15 Pro Max */
+  .languages-sect {
+  }
+  
+  .section-title {
+    font-size: 1.5em;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: #58B2FE;
+    text-underline-offset: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 5vh auto;
+  }
+  
+  .item {
+    text-align: center;
+  }
+  
+  .skill-title {
+    font-size: 1.2em;
+    font-weight: 800;
+  }
+  
+  .skills-exp {
+    font-size: 0.9em;
+    font-weight: 800;
+    color: #AEAEAE;
+  }
+  
+
+}
+
 
 @media only screen and (min-width: 1366px) {
     .section-container {
@@ -23,6 +178,7 @@
         justify-content: space-around;
         transform: translateY(9.5vh);
       }
+      
       
       
       
