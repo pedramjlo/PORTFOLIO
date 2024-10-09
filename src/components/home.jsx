@@ -48,7 +48,7 @@ const Home = () => {
                     <Projects />
                     <hr />
                     <Certificate />
-                    <hr />
+                    <br />
                     <Footer />
                 </div>   
 

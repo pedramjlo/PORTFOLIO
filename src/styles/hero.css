@@ -5,6 +5,9 @@ button {
     height: auto;
 }
 
+
+
+
 @media only screen and (min-width: 375px) {
     /* Styles for iPhone SE 2020 */
     main {
@@ -60,6 +63,30 @@ button {
 
     .custom-button {
         width: 50vw;
+    }
+
+    .modal-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5vh;
+    }
+
+    .modal-row {
+        display: flex;
+        gap: 4vw;
+        direction: ltr;
+    }
+
+    .modal-row a img {
+        width: 24px;
+        height: 24px;
+    }
+
+    #home-icon {
+        width: 24px;
+        height: 24px;
     }
 }
   
@@ -230,4 +257,35 @@ button {
     .custom-button {
         width: 20vw;
     }
+
+    .modal-row {
+        display: flex;
+        gap: 1vw;
+        direction: ltr;
+    }
+
+    .modal-row a img {
+        width: 24px;
+        height: 24px;
+    }
+
+    #home-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .modal-header-centered {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .modal-header-centered .close {
+        position: absolute;
+        right: 15px;
+    }
+    
 }

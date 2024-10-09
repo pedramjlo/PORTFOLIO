@@ -1,7 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import useMediaQuery from './MediaQuery';
 import { useTranslation } from 'react-i18next';
+
+
 import Man from '../images/man.svg';
+import Call from '../images/call.svg';
+import Mail from '../images/mail.svg';
+import Home from '../images/home.svg';
+
+
 
 import { IR, GB, DE } from 'country-flag-icons/react/3x2';
 import '../styles/hero.css';
@@ -60,24 +67,41 @@ const Hero = () => {
     const modalButton = () => {
         return(
             <div>
-            <Button className="custom-button" variant="primary" onClick={handleShow}>
-                <span style={{ color: "#ffffff" }}>{t('contact')}</span>
-            </Button>
+                <Button className="custom-button" variant="primary" onClick={handleShow}>
+                    <span style={{ color: "#ffffff" }}>{t('contact')}</span>
+                </Button>
 
-            <Modal show={show} onHide={handleClose} centered>
-                <Modal.Header closeButton>
-                    <Modal.Title>{t('contact')}</Modal.Title>
-                </Modal.Header>
-                <Modal.Body>
-                    x
-                </Modal.Body>
-                <Modal.Footer>
-                    <Button variant="secondary" onClick={handleClose}>
-                        x
-                    </Button>
-                </Modal.Footer>
-            </Modal>
-         </div>
+                <Modal show={show} onHide={handleClose} centered>
+                    <Modal.Header closeButton className="modal-header-centered">
+                        <Modal.Title>
+                            <span style={{ color: "#000000" }}>{t('contact')}</span>
+                        </Modal.Title>
+                    </Modal.Header>
+
+                    <Modal.Body className='modal-body' style={{ backgroundColor: "#36454F", direction: "ltr" }}>
+                        <div className='modal-row'>
+                            <a href="tel:+989336335973">
+                                <img src={Call} alt="" />
+                            </a>
+                            <span style={{ color: "#ffffff" }}>
+                                +98933 633 5973
+                            </span>
+                        </div>
+
+                        <div className='modal-row'>
+                            <a href="mailto:pedram_sif@tuta.io"><img src={Mail} alt="mail"/> </a>
+                            <span style={{ color: "#ffffff" }}>
+                                pedram_sif@tuta.io
+                            </span>
+                        </div>
+
+                        <div className='modal-row'>
+                            <a href={Home}><img id="home-icon" src={Home} alt="call" /></a>
+                            <span>Iran, Kerman</span>
+                        </div>
+                    </Modal.Body>
+                </Modal>
+            </div>
         );
     };
 
