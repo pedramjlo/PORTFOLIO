@@ -58,16 +58,6 @@ const Home = () => {
                     <Navbar />
                     <Hero />
                     <br />
-                    <hr />
-                    <PrimarySkills />
-                    <hr />
-                    <Languages />
-                    <hr />
-                    <Projects />
-                    <hr />
-                    <Certificate />
-                    <hr />
-                    <Footer />
                 </div>   
                 
             )}

@@ -7,6 +7,116 @@ button {
 
 @media only screen and (min-width: 375px) {
     /* Styles for iPhone SE 2020 */
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-conatiner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .language-buttons {
+        width: 10vw;
+        display: flex;
+        gap: 10vw;
+        transform: translateX(-10.5vh);
+    }
+    .language-buttons button img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .language-flag {
+        width: 32px;
+        height: 32px;   
+    }
+
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-image img {
+        width: 80vw;
+        height: 60vh;
+    }
+
+    .welcome-text span {
+        font-size: 2em;
+        font-weight: 700;
+    }
+
+    .hero-description span {
+        color: #AEAEAE;
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+    .custom-button {
+        width: 50vw;
+    }
+}
+  
+@media only screen and (min-width: 414px) {
+    /* Styles for iPhone 15 */
+    .hero-conatiner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .language-buttons {
+        width: 10vw;
+        display: flex;
+        gap: 2vw;
+    }
+    .language-buttons button img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .language-flag {
+        width: 32px;
+        height: 32px;   
+    }
+
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-image img {
+        width: 80vw;
+        height: 60vh;
+    }
+
+    .welcome-text span {
+        font-size: 2em;
+        font-weight: 700;
+    }
+
+    .hero-description span {
+        color: #AEAEAE;
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+    .custom-button {
+        width: 50vw;
+    }
+
+
+}
+  
+@media only screen and (min-width: 430px) {
+    /* Styles for iPhone 15 Pro Max */
     .hero-conatiner {
         display: flex;
         flex-direction: column;
@@ -48,38 +158,25 @@ button {
         font-size: 1em;
         font-weight: 600;
     }
-}
-  
-@media only screen and (min-width: 414px) {
-    /* Styles for iPhone 15 */
-    .hero img {
+
+    .custom-button {
+        width: 50vw;
     }
 
-}
-  
-@media only screen and (min-width: 430px) {
-    /* Styles for iPhone 15 Pro Max */
-    .hero img {
-        
-    }
-    .hero-conatiner {
-
-    }
 }
   
 
 @media only screen and (min-width: 1366px) {
-   
     .hero-content {
-        display: flex;
-        
+        margin: auto 50px;
     }
-
+  
     .language-buttons {
-        width: 10vw;
+        width: auto;
         display: flex;
         gap: 2vw;
     }
+
     .language-buttons button img {
         width: 32px;
         height: 32px;
@@ -102,7 +199,8 @@ button {
     }
 
     .welcome-text {
-        font-size: 2em;
+        font-size: 3em;
+        font-weight: 700;
     }
 
     .hero-description  {
@@ -116,7 +214,20 @@ button {
         justify-content: center;
     }
 
-    .col.img{
+    .col.writings {
+        transform: translateY(12vh);
+    }
 
+    .hero-description {
+        font-weight: 600;
+        line-height: 7.5vh;
+    }
+
+    .hero-description {
+        margin: 5vh auto;
+    }
+
+    .custom-button {
+        width: 20vw;
     }
 }
